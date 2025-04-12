@@ -1,19 +1,11 @@
 import Navbar from "../component/Navbar"
 import Hero from "../component/Hero"
-import contactImg from "../assets/10.jpg"
-function Contact(){
+import AboutImg from "../assets/11.jpeg"
+function About (){
     return(
         <>
          <Navbar />
       
-
-      <Hero
-       cName="hero-mid"
-       heroImg={contactImg}
-       title="Contact"
-       />
-    </>
-    )
 
         <Hero
          cName="hero-mid"
@@ -24,4 +16,10 @@ function Contact(){
           
         </>
     );
+
+}
+export default About;
+
+
+      <
 
