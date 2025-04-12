@@ -6,6 +6,7 @@ function About (){
         <>
          <Navbar />
       
+
         <Hero
          cName="hero-mid"
          heroImg={AboutImg}
@@ -18,3 +19,7 @@ function About (){
 
 }
 export default About;
+
+
+      <
+
