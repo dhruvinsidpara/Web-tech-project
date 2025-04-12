@@ -1,11 +1,20 @@
 import Navbar from "../component/Navbar"
 import Hero from "../component/Hero"
-import AboutImg from "../assets/11.jpeg"
-function About (){
+import contactImg from "../assets/10.jpg"
+function Contact(){
     return(
         <>
          <Navbar />
       
+
+      <Hero
+       cName="hero-mid"
+       heroImg={contactImg}
+       title="Contact"
+       />
+    </>
+    )
+
         <Hero
          cName="hero-mid"
          heroImg={AboutImg}
@@ -15,15 +24,4 @@ function About (){
           
         </>
     );
-=======
-function About() {
-  return (
-    <>
-      <h1>This is about</h1>
-    </>
-  );
-}
 
-
-}
-export default About;
