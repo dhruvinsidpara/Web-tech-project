@@ -6,6 +6,7 @@ function Contact(){
         <>
          <Navbar />
       
+
       <Hero
        cName="hero-mid"
        heroImg={contactImg}
@@ -14,5 +15,13 @@ function Contact(){
     </>
     )
 
-}
-export default Contact;
+        <Hero
+         cName="hero-mid"
+         heroImg={AboutImg}
+         title="About"
+         
+         />
+          
+        </>
+    );
+
