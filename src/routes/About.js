@@ -1,18 +1,20 @@
 import Navbar from "../component/Navbar"
 import Hero from "../component/Hero"
-import contactImg from "../assets/10.jpg"
-function Contact(){
+import AboutImg from "../assets/11.jpeg"
+function About (){
     return(
         <>
          <Navbar />
       
-      <Hero
-       cName="hero-mid"
-       heroImg={contactImg}
-       title="Contact"
-       />
-    </>
-    )
+        <Hero
+         cName="hero-mid"
+         heroImg={AboutImg}
+         title="About"
+         
+         />
+          
+        </>
+    );
 
 }
-export default Contact;
+export default About;
