@@ -1,3 +1,21 @@
+import Navbar from "../component/Navbar"
+import Hero from "../component/Hero"
+import AboutImg from "../assets/11.jpeg"
+function About (){
+    return(
+        <>
+         <Navbar />
+      
+        <Hero
+         cName="hero-mid"
+         heroImg={AboutImg}
+         title="About"
+         
+         />
+          
+        </>
+    );
+=======
 function About() {
   return (
     <>
@@ -7,4 +25,5 @@ function About() {
 }
 
 
+}
 export default About;
