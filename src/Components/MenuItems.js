@@ -1,35 +1,35 @@
-export const MenuItems = [
+export const Menuitems = [
   {
     title: "Home",
-    url: "/",
+    Url: "/",
     cName: "nav-links",
-    icon: "fa-solid fa-house",
+    icon: "fa-solid fa-house-user",
   },
 
   {
     title: "About",
-    url: "/about",
+    Url: "/about",
     cName: "nav-links",
-    icon: "fa-solid fa-circle-info",
+    icon: "fa-solid fa-circle-user",
   },
 
   {
-    title: "Service",
-    url: "/servce",
+    title: "Servise",
+    Url: "/servise",
     cName: "nav-links",
-    icon: "fa-solid fa-briefcase",
+    icon: "fa-brands fa-servicestack",
   },
 
   {
     title: "Contact",
-    url: "/contact",
+    Url: "/contact",
     cName: "nav-links",
     icon: "fa-solid fa-address-book",
   },
 
   {
-    title: "Sign Up",
-    url: "/signup",
+    title: "Sing UP",
+    Url: "/singup",
     cName: "nav-links-mobile",
   },
 ];
