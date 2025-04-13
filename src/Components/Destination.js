@@ -1,4 +1,4 @@
-// keval vala 
+
 
 import mubai from "../assets/mubai.jpg"
 import ladak from "../assets/7.jpeg"
