@@ -29,15 +29,7 @@ const destination = () => {
          img1={mubai}
          />
 
-         <DestinationData
-         className="first-des"
-         heading="Sikkim"
-         text=" Sikkim has plenty of natural enthralling tourist places, 
-         beautiful towns and villages as well as world famous monasteries which are not to be missed! 
-         Sikkim is also famous for some adventure sports like mountaineering, trekking, river rafting, 
-         mountain biking and hang gliding."
-         img1={sikkim}
-         />
+         
 
        
         </div> 
