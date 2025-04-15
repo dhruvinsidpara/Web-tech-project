@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar"
 import Hero from "../component/Hero"
-import seviceImg from "../assets/9.jpg"
+import seviceImg from "../assets/14.webp"
 import Trip from "../component/Trip"; 
 import Footer from "../component/Footer";
 function Service(){

@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/servise" element={<Service/>}/>
       </Routes>
       {/* <Navbar /> */}
-      // <Chatbot/>
+      {/* // <Chatbot/> */}
       
 
    
