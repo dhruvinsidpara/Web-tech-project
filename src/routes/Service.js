@@ -1,6 +1,8 @@
 import Navbar from "../component/Navbar"
 import Hero from "../component/Hero"
-import seviceImg from "../assets/14.webp"
+import seviceImg from "../assets/9.jpg"
+import Trip from "../component/Trip"; 
+import Footer from "../component/Footer";
 function Service(){
     return(
         <>
@@ -11,6 +13,8 @@ function Service(){
        heroImg={seviceImg}
        title="Service"
        />
+       <Trip/>
+      <Footer/>
         
         </>
     )
