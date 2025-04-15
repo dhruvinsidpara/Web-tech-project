@@ -31,7 +31,8 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <button>Sing Up</button>
+          <button>Sign Up</button>
+          <button>Sign In</button>
         </ul>
       </nav>
     );

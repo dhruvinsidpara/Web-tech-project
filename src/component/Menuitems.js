@@ -14,7 +14,7 @@ export const Menuitems = [
   },
 
   {
-    title: "Servise",
+    title: "Service",
     Url: "/servise",
     cName: "nav-links",
     icon: "fa-brands fa-servicestack",
@@ -30,6 +30,11 @@ export const Menuitems = [
   {
     title: "Sing UP",
     Url: "/singup",
+    cName: "nav-links-mobile",
+  },
+  {
+    title: "Sing in",
+    Url: "/signin",
     cName: "nav-links-mobile",
   },
 ];
