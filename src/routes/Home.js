@@ -4,6 +4,7 @@ import Hero from "../component/Hero";
 import homeImg from "../assets/1.jpg";
 import Destination from "../component/Destination";
 import Trip from "../component/Trip"; 
+import Footer from "../component/Footer";
 
 function Home (){
     return(
@@ -20,6 +21,7 @@ function Home (){
          />
          <Destination/>
          <Trip/>
+         <Footer/>
          
 
         </>
