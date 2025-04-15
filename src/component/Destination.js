@@ -5,7 +5,7 @@ import ladak from "../assets/7.jpeg"
 import sikkim from "../assets/6.jpeg"
 
 import "./Destination.css"
-import DestinationData from "../component/DestinationData";
+import DestinationData from "./DestinationData";
 const destination = () => {
     return(
         <div className="destination">
