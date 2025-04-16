@@ -37,7 +37,7 @@ const Footer = () => {
 
                 <div>
                     <h4>Community</h4>
-                    <a href="/"> GitHub</a>
+                    <a href="https://github.com/dhruvinsidpara/Web-tech-project"> GitHub</a>
                     <a href="/"> Issues</a>
                     <a href="/"> project</a>
                     <a href="/"> Twitter</a>
