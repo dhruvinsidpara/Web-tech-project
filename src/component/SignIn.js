@@ -1,14 +1,27 @@
 import React, { useState } from "react";
 import { TextField, Button, Container, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { auth } from "./firebase";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Sign In:", { email, password });
+    try {
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      console.log("Signed in:", userCredential.user);
+      alert("Sign-in successful!");
+
+      // Redirect to home page or dashboard
+      navigate("/home"); // Change "/home" if needed
+    } catch (error) {
+      console.error("Sign-in error:", error.message);
+      alert("Error: " + error.message);
+    }
   };
 
   return (
@@ -40,4 +53,4 @@ function SignIn() {
   );
 }
 
-export default SignIn;
+export default SignIn;

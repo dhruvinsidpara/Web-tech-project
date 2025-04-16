@@ -1,15 +1,27 @@
 import React, { useState } from "react";
 import { TextField, Button, Container, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { auth } from "./firebase";
+import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Register:", { name, email, password });
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+
+      await updateProfile(user, { displayName: name });
+      console.log("User registered:", user);
+      alert("Registration successful!");
+    } catch (error) {
+      console.error("Registration error:", error.message);
+      alert("Error: " + error.message);
+    }
   };
 
   return (
@@ -48,4 +60,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Register;
