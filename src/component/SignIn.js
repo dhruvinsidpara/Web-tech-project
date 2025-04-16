@@ -17,7 +17,7 @@ function SignIn() {
       alert("Sign-in successful!");
 
       // Redirect to home page or dashboard
-      navigate("/home"); // Change "/home" if needed
+      navigate("/"); // Change "/home" if needed
     } catch (error) {
       console.error("Sign-in error:", error.message);
       alert("Error: " + error.message);
