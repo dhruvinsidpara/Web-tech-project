@@ -10,7 +10,7 @@ function ContactForm(){
                 <input placeholder="Email"/>    
                 <input placeholder="Subject"/>    
                 <textarea placeholder="message" rows="4"></textarea>
-                <button> send massge </button>
+                <button> send message</button>
            </form>
   
          </div>

@@ -29,7 +29,7 @@ function Trip() {
                 
                 <TripData 
                     image={dhruvin}
-                    heading="DVARAKA"
+                    heading="Dwarka"
                     text="The Dwarkadhish temple, also known as the Jagat Mandir and occasionally spelled Dwarakadheesh, is a Hindu temple dedicated to Krishna, 
                     who is worshiped in the temple by the name Dwarkadhish (Dvārakādhīśa), or 'King of Dwarka'"
                     link="https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/dwarkadhish-temple.html"

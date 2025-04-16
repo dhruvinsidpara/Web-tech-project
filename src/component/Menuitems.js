@@ -29,12 +29,12 @@ export const Menuitems = [
 
   {
     title: "Sing UP",
-    Url: "/singup",
+    Url: "/Register",
     cName: "nav-links-mobile",
   },
   {
     title: "Sing in",
-    Url: "/signin",
+    Url: "/SignIn",
     cName: "nav-links-mobile",
   },
 ];
